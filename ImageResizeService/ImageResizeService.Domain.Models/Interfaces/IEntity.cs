@@ -1,4 +1,9 @@
-﻿namespace ImageResizeService.Domain.Models.Interfaces
+﻿using System;
+
+namespace ImageResizeService.Domain.Models.Interfaces
 {
-    public interface IEntity { }
+    public interface IEntity
+    {
+        Guid Guid { get; protected set; }
+    }
 }
