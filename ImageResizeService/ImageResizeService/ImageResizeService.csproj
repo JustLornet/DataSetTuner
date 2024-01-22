@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ImageResizeService.DB\ImageResizeService.Domain.Dal.Contracts.csproj" />
+    <ProjectReference Include="..\ImageResizeService.Domain\ImageResizeService.Domain.Services.Contracts.csproj" />
+    <ProjectReference Include="..\ImageResizeService.Infrastructure\ImageResizeService.Infrastructure.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ImageResizeMessages">
+      <HintPath>..\..\MessageBrokerDto\ImageResizeMessages\ImageResizeMessages\bin\Debug\net8.0\ImageResizeMessages.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

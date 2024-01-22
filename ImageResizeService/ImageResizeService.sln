@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageResizeService", "ImageResizeService\ImageResizeService.csproj", "{B110FAB1-A8C0-44C6-BB97-9DA01E569AA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageResizeService.Infrastructure.Contracts", "ImageResizeService.Infrastructure\ImageResizeService.Infrastructure.Contracts.csproj", "{B943B431-4884-42A3-9910-007832728121}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageResizeService.Domain.Services.Contracts", "ImageResizeService.Domain\ImageResizeService.Domain.Services.Contracts.csproj", "{B1161724-0602-40B6-B578-F3D74042AEB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageResizeService.Domain.Dal.Contracts", "ImageResizeService.DB\ImageResizeService.Domain.Dal.Contracts.csproj", "{77396D62-66F7-4170-A043-FC60B4B0286B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageResizeService.Domain.Models", "ImageResizeService.Domain.Models\ImageResizeService.Domain.Models.csproj", "{1FC14EA9-7248-48B5-B075-0F700722EC8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A8A02573-3499-4959-AC24-FA224F617C6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{79D37B94-F810-474A-8FB8-B5D97D749FE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{61086012-DCAC-4707-A803-64FA8586966F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{30FA48B4-7319-40EB-91B0-769DB8B8BC69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementations", "Implementations", "{7F38C129-15BF-4B4B-B3A6-DD4162880506}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageResizeService.Domain.Services.Implementations", "ImageResizeService.Domain.Services.Implementations\ImageResizeService.Domain.Services.Implementations.csproj", "{1F2AEEC4-06EB-4B05-A7DE-AA269CF93FEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageResizeService.Domain.Dal.Implementations", "ImageResizeService.Domain.Dal.Implementations\ImageResizeService.Domain.Dal.Implementations.csproj", "{2F24CD5D-F7EE-4E00-B039-399C5C11712D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{73C775BB-E603-489E-8C33-55250E330867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageResizeService.Domain.Services.Tests", "ImageResizeService.Domain.Services.Tests\ImageResizeService.Domain.Services.Tests.csproj", "{1078D64B-294B-448E-8CB8-395F8B21FCFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B110FAB1-A8C0-44C6-BB97-9DA01E569AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B110FAB1-A8C0-44C6-BB97-9DA01E569AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B110FAB1-A8C0-44C6-BB97-9DA01E569AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B110FAB1-A8C0-44C6-BB97-9DA01E569AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B943B431-4884-42A3-9910-007832728121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B943B431-4884-42A3-9910-007832728121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B943B431-4884-42A3-9910-007832728121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B943B431-4884-42A3-9910-007832728121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1161724-0602-40B6-B578-F3D74042AEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1161724-0602-40B6-B578-F3D74042AEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1161724-0602-40B6-B578-F3D74042AEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1161724-0602-40B6-B578-F3D74042AEB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77396D62-66F7-4170-A043-FC60B4B0286B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77396D62-66F7-4170-A043-FC60B4B0286B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77396D62-66F7-4170-A043-FC60B4B0286B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77396D62-66F7-4170-A043-FC60B4B0286B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FC14EA9-7248-48B5-B075-0F700722EC8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC14EA9-7248-48B5-B075-0F700722EC8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC14EA9-7248-48B5-B075-0F700722EC8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC14EA9-7248-48B5-B075-0F700722EC8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F2AEEC4-06EB-4B05-A7DE-AA269CF93FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F2AEEC4-06EB-4B05-A7DE-AA269CF93FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F2AEEC4-06EB-4B05-A7DE-AA269CF93FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F2AEEC4-06EB-4B05-A7DE-AA269CF93FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F24CD5D-F7EE-4E00-B039-399C5C11712D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F24CD5D-F7EE-4E00-B039-399C5C11712D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F24CD5D-F7EE-4E00-B039-399C5C11712D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F24CD5D-F7EE-4E00-B039-399C5C11712D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1078D64B-294B-448E-8CB8-395F8B21FCFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1078D64B-294B-448E-8CB8-395F8B21FCFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1078D64B-294B-448E-8CB8-395F8B21FCFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1078D64B-294B-448E-8CB8-395F8B21FCFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B943B431-4884-42A3-9910-007832728121} = {79D37B94-F810-474A-8FB8-B5D97D749FE7}
+		{B1161724-0602-40B6-B578-F3D74042AEB9} = {30FA48B4-7319-40EB-91B0-769DB8B8BC69}
+		{77396D62-66F7-4170-A043-FC60B4B0286B} = {30FA48B4-7319-40EB-91B0-769DB8B8BC69}
+		{1FC14EA9-7248-48B5-B075-0F700722EC8B} = {A8A02573-3499-4959-AC24-FA224F617C6E}
+		{30FA48B4-7319-40EB-91B0-769DB8B8BC69} = {A8A02573-3499-4959-AC24-FA224F617C6E}
+		{7F38C129-15BF-4B4B-B3A6-DD4162880506} = {A8A02573-3499-4959-AC24-FA224F617C6E}
+		{1F2AEEC4-06EB-4B05-A7DE-AA269CF93FEC} = {7F38C129-15BF-4B4B-B3A6-DD4162880506}
+		{2F24CD5D-F7EE-4E00-B039-399C5C11712D} = {7F38C129-15BF-4B4B-B3A6-DD4162880506}
+		{73C775BB-E603-489E-8C33-55250E330867} = {7F38C129-15BF-4B4B-B3A6-DD4162880506}
+		{1078D64B-294B-448E-8CB8-395F8B21FCFD} = {73C775BB-E603-489E-8C33-55250E330867}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0313FE4B-47F7-4E8B-8FD1-CD9278A57877}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ImageResizeService.DB\ImageResizeService.Domain.Dal.Contracts.csproj" />
+    <ProjectReference Include="..\ImageResizeService.Domain.Models\ImageResizeService.Domain.Models.csproj" />
+    <ProjectReference Include="..\ImageResizeService.Domain\ImageResizeService.Domain.Services.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
