@@ -1,25 +1,16 @@
 ﻿using System;
-using ImageResizeService.Domain.Models.Interfaces;
+using ImageResizeService.Domain.Models.Abstractions;
 
 namespace ImageResizeService.Domain.Models.Models
 {
-    public class InitImage : IImageModel
+    /// <summary>
+    /// Модель исходного изображения.
+    /// </summary>
+    public class InitImage : ImageModel
     {
-
-        internal InitImage(Guid guid, byte[] data, int wOut, int hOut)
+        internal InitImage(Guid guid)
         {
             Guid = guid;
-            WOut = wOut;
-            HOut = hOut;
-            Data = data;
         }
-
-        public Guid Guid { get; set; }
-        
-        public int WOut { get; set; }
-        
-        public int HOut { get; set; }
-
-        public byte[] Data { get; set; }
     }
 }

@@ -7,7 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Aggregates\CloudCatalogFolder.cs" />
+    <Compile Remove="Abstractions\ICloudCatalogElement.cs" />
+    <Compile Remove="Models\CatalogImage.cs" />
+    <Compile Remove="Models\EditImageModel.cs" />
     <Compile Remove="Models\Folder.cs" />
+    <Compile Remove="ValueObjects\CatalogType.cs" />
+    <Compile Remove="ValueObjects\HID.cs" />
+    <Compile Remove="ValueObjects\LeafType.cs" />
+    <Compile Remove="ValueObjects\Path.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="8.0.1" />
   </ItemGroup>
 
 </Project>
